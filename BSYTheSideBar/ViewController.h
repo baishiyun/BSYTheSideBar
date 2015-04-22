@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class BSYItem;
+@class BSYView;
 @interface ViewController : UIViewController
-
-
+@property(nonatomic,strong) UIButton*SlideBarButton;
+@property(nonatomic,strong) BSYItem*right;
+@property(nonatomic,strong) BSYItem*left;
+@property(nonatomic,strong) BSYView *slide;
 @end
 
